@@ -1,22 +1,22 @@
-* {
+* {/*selector principal de incializacion */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 h1 {
-    text-align: center;
+    text-align: center;/*titulos*/
 
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;/*Delimitacion de las columnas */
+    gap: 10px;/*separacion en las columnas */
     /*1fr es una unidad de medida en CSS Grid que significa "una fracción" (fraction) del espacio disponible en el contenedor. Permite distribuir el espacio sobrante de forma proporcional y flexible, facilitando el diseño responsivo sin necesidad de realizar cálculos manuales complicados de porcentajes o píxeles. */
 }
 
-.image-container {
+.image-container {/*esto hace que el contenedor sea flexible/responsivo */
     display: flex;
 
 }
@@ -25,7 +25,7 @@ main {
     width: 100%;
 }
 
-article{
+article{/*delimita las card de los personajes*/
     padding: 10px;
     box-shadow: 1px 1px 8px #000;
 }
