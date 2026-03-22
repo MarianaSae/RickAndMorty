@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    /*1fr es una unidad de medida en CSS Grid que significa "una fracción" (fraction) del espacio disponible en el contenedor. Permite distribuir el espacio sobrante de forma proporcional y flexible, facilitando el diseño responsivo sin necesidad de realizar cálculos manuales complicados de porcentajes o píxeles. */
+}
+
+.image-container {
+    display: flex;
+
+}
+
+.image-container img {
+    width: 100%;
+}
+
+article{
+    padding: 10px;
+    box-shadow: 1px 1px 8px #000;
+}
